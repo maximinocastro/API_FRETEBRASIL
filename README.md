@@ -1,3 +1,3 @@
 # API_FRETEBRASIL
-![FreteBrasil](./resource/FRETEBRASIL.jpg)
+![FreteBrasil](./Resource/FRETEBRASIL.jpg)
 API Frete Brasil - Active Corp.
