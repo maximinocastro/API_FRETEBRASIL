@@ -1,7 +1,7 @@
 # API FRETEBRASIL X PROTHEUS
 ![FreteBrasil](./Resource/FRETEBRASIL.jpg)
 
-Foi realizado o desenvolvimento de integração ERP PROTHEUS X API FRETE BRASIL para (Cotação de Frete, Integrar NF Fiscal, Cancelamento de NF, Consulta de Fatura, Consulta de CTE, Integração de Romaneio e Calculo do Romaneio). 
+Foi realizado o desenvolvimento de integração ERP PROTHEUS X API FRETE BRASIL para (Cotação de Frete, Integrar Nota Fiscal, Cancelamento de NF, Consulta de Fatura, Consulta de CTE, Integração de Romaneio e Calculo do Romaneio). 
 
 https://activecorp.com.br/
 
