@@ -9,7 +9,7 @@ E para quem estiver fazendo integração com essa empresa disponibilizei o Patch
 
 Após aplicar a Patch e terá disponivel os seguinte recursos:
 
-# METODOS DISPONÍVEIS NA API 
+# MÉTODOS DISPONÍVEIS NA API 
 
 * Method New()
 * Method Destroy()
@@ -44,7 +44,7 @@ cRetXml += ' ROMA_CDROTA = "'+cCodRota+'"'
 
 Return cRetXml
 
-# DESCRIÇÃO DO ARRAY DE CADA METODO
+# DESCRIÇÃO DO ARRAY DE CADA MÉTODO
 
 # CotacaoIntegrar( aDados )
 
