@@ -1,6 +1,12 @@
 # API FRETEBRASIL X PROTHEUS
 ![FreteBrasil](./Resource/FRETEBRASIL.jpg)
 
+Foi realizado o desenvolvimento de integração ERP PROTHEUS X API FRETE BRASIL para (Cotação de Frete, Integrar NF Fiscal, Cancelamento de NF, Consulta de Fatura, Consulta de CTE, Integração de Romaneio e Calculo do Romaneio). 
+
+E para quem estiver fazendo integração com essa empresa disponibilizei o Patch para facilitar o desenvolimento, abaixo o procedimento de como utilizar.
+
+Após aplicar a Patch e terá disponivel os seguinte recursos:
+
 # METODOS DISPONÍVEIS NA API 
 
 * Method New()
@@ -12,7 +18,7 @@
 * Method RomaneioIntegrar( aDados ) //Realiza a Integração do Romaneio
 * Method CalcRomaneio( aDados ) //Realiza o Calculo do Romaneio
 
-# PARAMETROS DISPONÍVEIS NA API 
+# PARÂMETROS DISPONÍVEIS NA API 
 
 * Parametro Token -> MV_TOKENFT
 * Parametro URL   -> MV_URLFRTB
@@ -25,7 +31,7 @@
 
 Recebe o XML já montado antes de receber a ultima tag para fechamento.
 
-# EXEMPLO PONTOS DE ENTRADAS
+# EXEMPLO PONTO DE ENTRADA
 
 User Function COTINTAPI(XML)
 
@@ -113,4 +119,4 @@ Return cRetXml
 * | 02 | TRANSP_CNPJ
 * | 03 | NUMERO DO ROMANEIO
 
-# SOLITAÇÃO DE MELHORIAS ABRIR INSSUE CASO O METODO QUE NECESSITE NÃO EXISTE
+# SOLITAÇÃO DE MELHORIAS ABRIR INSSUE CASO O METODO QUE NECESSITE NÃO EXISTA
