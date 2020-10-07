@@ -25,6 +25,8 @@ Após aplicar a Patch e terá disponivel os seguinte recursos:
 * Parametro Token -> MV_TOKENFT
 * Parametro URL   -> MV_URLFRTB
 
+Atenção: Para conseguir o Token e URL é necessario entrar em contato com a empresa ActiveCorp para que eles disponibilizem essas informações.
+
 # PONTOS DE ENTRADAS DISPONÍVEIS
 
 * CotacaoIntegrar  -> COTINTAPI(XML)
@@ -32,6 +34,27 @@ Após aplicar a Patch e terá disponivel os seguinte recursos:
 * RomaneioIntegrar -> ROMINTAPI(XML)
 
 Recebe o XML já montado antes de receber a ultima tag para fechamento.
+
+# EXEMPLO DE COMO CONSUMIR API
+
+User Function CONECTAAPI()
+
+Local cCnpjEmp := "
+Local cCNPJTrp := "
+Local cNumRom  := "
+Local aDados   := {}
+Local oFrtBra  := Nil
+Local oRetApi  := Nil
+
+aAdd(aDados, cCnpjEmp) //Cnpj Nosso        
+aAdd(aDados, cCNPJTrp) //Cnpj Transportadora
+aAdd(aDados, cNumRom) //Numero Romaneio
+
+oFrtBra   := FreteBraAPI():New()
+oRetApi   := oFrtBra:CalcRomaneio( aDados )
+
+Return 
+
 
 # EXEMPLO PONTO DE ENTRADA
 
