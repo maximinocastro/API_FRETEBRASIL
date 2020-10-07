@@ -46,9 +46,9 @@ Local aDados   := {}
 Local oFrtBra  := Nil                                      
 Local oRetApi  := Nil                                      
                                       
-aAdd(aDados, cCnpjEmp) //Cnpj Nosso                                      
-aAdd(aDados, cCNPJTrp) //Cnpj Transportadora                                      
-aAdd(aDados, cNumRom) //Numero Romaneio                                      
+aAdd(aDados, cCnpjEmp)                                       
+aAdd(aDados, cCNPJTrp)                                       
+aAdd(aDados, cNumRom)                                      
                                       
 oFrtBra   := FreteBraAPI():New()                                      
 oRetApi   := oFrtBra:CalcRomaneio( aDados )                                      
