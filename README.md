@@ -50,7 +50,7 @@ aAdd(aDados, cCnpjEmp)
 aAdd(aDados, cCNPJTrp)                                       
 aAdd(aDados, cNumRom)                                      
                                       
-oFrtBra   := FreteBraAPI():New()                                      
+oFrtBra   := FrtBrasilAPI():New()                                      
 oRetApi   := oFrtBra:CalcRomaneio( aDados )                                      
                                       
 Return                                       
