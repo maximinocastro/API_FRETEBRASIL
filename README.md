@@ -39,21 +39,21 @@ Recebe o XML já montado antes de receber a ultima tag para fechamento.
 
 User Function CONECTAAPI()
 
-Local cCnpjEmp := "
-Local cCNPJTrp := "
-Local cNumRom  := "
-Local aDados   := {}
-Local oFrtBra  := Nil
-Local oRetApi  := Nil
-
-aAdd(aDados, cCnpjEmp) //Cnpj Nosso        
-aAdd(aDados, cCNPJTrp) //Cnpj Transportadora
-aAdd(aDados, cNumRom) //Numero Romaneio
-
-oFrtBra   := FreteBraAPI():New()
-oRetApi   := oFrtBra:CalcRomaneio( aDados )
-
-Return 
+Local cCnpjEmp := "                                      
+Local cCNPJTrp := "                                      
+Local cNumRom  := "                                      
+Local aDados   := {}                                      
+Local oFrtBra  := Nil                                      
+Local oRetApi  := Nil                                      
+                                      
+aAdd(aDados, cCnpjEmp) //Cnpj Nosso                                      
+aAdd(aDados, cCNPJTrp) //Cnpj Transportadora                                      
+aAdd(aDados, cNumRom) //Numero Romaneio                                      
+                                      
+oFrtBra   := FreteBraAPI():New()                                      
+oRetApi   := oFrtBra:CalcRomaneio( aDados )                                      
+                                      
+Return                                       
 
 
 # EXEMPLO PONTO DE ENTRADA
